@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ececec;
+    font-family: sans-serif;
+    font-style: 18px;
+    line-height: 25px;
+}
+
+.wrapper{
+    max-width: 900px;
+    background-color: #9dd9f5;
+    min-height: 120px;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+form{
+    width: 100%;
+}
+
+input[type="text"]{
+    background-color: #ececec;
+    display: inline-block;
+    padding: 15px;
+    width: 40%;          
+}
+
+input[type="submit"]{
+    padding: 15px;
+    display: inline-block;
+    width: 15%;
+}
